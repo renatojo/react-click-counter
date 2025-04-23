@@ -9,12 +9,10 @@ const Counter = () => {
             <main>
             
             <h1>Contador de Cliques</h1>
-            <h1>{estado1}</h1>
-            <h1>{estado2}</h1>
-            <button onClick={() => setEstado1(estado1 + 1)}>Adicione +1 ao time A</button>
+            <button onClick={() => setEstado1(estado1 + 1)}>{estado1}</button>
             <button onClick={() => setEstado1(estado1 - 1)}>Adicione -1 ao time A</button>
 
-            <button onClick={() => setEstado2(estado2 + 1)}>Adicione +1 ao time B</button>
+            <button onClick={() => setEstado2(estado2 + 1)}>{estado2}</button>
             <button onClick={() => setEstado2(estado2 - 1)}>Adicione +1 ao time B</button>
             <button onClick={() => {
                  setEstado2(0);
