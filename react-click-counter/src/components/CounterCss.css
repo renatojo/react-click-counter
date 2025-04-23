@@ -3,11 +3,38 @@
 }
 
 .ContadorPrincipal {
-    font-size: 100px;      /* tamanho do texto */
-    padding: 200px;     /* espaço interno do botão */
+    font-size: 100px;
+    width: 400px;          
+    height: 400px;         
     margin: 10px;
-    border-radius: 10px;    /* cantos arredondados */
-    background-color: #4CAF50; /* cor de fundo */
-    color: white;           /* cor do texto */
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
     cursor: pointer;
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;            
+    box-sizing: border-box; 
+
+}
+
+.BotaoDiminuirQuantidade {
+    font-size: 50px;         /* tamanho da fonte menor */
+    width: 100px;          
+    height: 100px;         
+    margin: 10px;
+    padding: opx;
+    border-radius: 5px;      /* cantinhos arredondados */
+    background-color: #f44336; /* vermelho para contraste */
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s;
+}
+
+.BotaoDiminuirQuantidade:hover {
+    background-color: #c62828; /* vermelho mais escuro ao passar o mouse */
 }
