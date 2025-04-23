@@ -1,0 +1,13 @@
+#DivContadorPrincipal{
+    display: flex;
+}
+
+.ContadorPrincipal {
+    font-size: 100px;      /* tamanho do texto */
+    padding: 200px;     /* espaço interno do botão */
+    margin: 10px;
+    border-radius: 10px;    /* cantos arredondados */
+    background-color: #4CAF50; /* cor de fundo */
+    color: white;           /* cor do texto */
+    cursor: pointer;
+}
