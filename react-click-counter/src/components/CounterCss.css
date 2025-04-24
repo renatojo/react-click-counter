@@ -38,3 +38,16 @@
 .BotaoDiminuirQuantidade:hover {
     background-color: #c62828; /* vermelho mais escuro ao passar o mouse */
 }
+
+#DivTitulos {
+    display: flex;
+    justify-content: center;
+}
+
+#casa{
+    padding-right: 350px;
+}
+
+#visitante {
+    padding-left: 50px;
+}
